@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Container fluid className="text-left">
         <h1>Programma UMI Pisa 2023</h1>
-        <div class="text-muted h5 text-center">Aggiornato al 12 marzo 2023</div>
+        <div class="text-muted h5 text-center">Aggiornato al 20 marzo 2023</div>
         <div class="day">
         <h2>Lunedì 4 settembre</h2>
         <DayTable>
@@ -73,7 +73,7 @@ function App() {
                 <SocialEvent name="Cocktail di benvenuto (La Sapienza)"></SocialEvent>
             </DayRow>
             <DayRow>
-                <TimeCell start="20:30" end="22:30"></TimeCell>
+                <TimeCell start="21:00" end="22:30"></TimeCell>
                 <SocialEvent name="Rappresentazione teatrale &quot;Verba manent. Canto per Ennio De Giorgi&quot; (Teatro Verdi)"></SocialEvent>
             </DayRow>
         </DayTable></div>
@@ -160,7 +160,7 @@ function App() {
                 <Plenary speaker="A. Fino" title="TBA"></Plenary>
             </DayRow>
             <DayRow>
-                <TimeCell start="09:40" end="10:00"></TimeCell>
+                <TimeCell start="09:40" end="10:30"></TimeCell>
                 <Plenary speaker="P. Spiga" title="TBA"></Plenary>
             </DayRow>
             <DayRow>
@@ -235,14 +235,14 @@ function App() {
                 <TimeCell start="14:30" end="15:10"></TimeCell>
                 <SemiPlenary speaker="S. Mosconi"></SemiPlenary>
                 <SemiPlenary speaker="J. Vitória"></SemiPlenary>
-                <SemiPlenary speaker="P. Stellari"></SemiPlenary>
+                <SemiPlenary speaker="L. Arosio"></SemiPlenary>
                 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </DayRow>
             <DayRow>
                 <TimeCell start="15:25" end="16:05"></TimeCell>
                 <SemiPlenary speaker="M. Di Nasso"></SemiPlenary>
                 <SemiPlenary speaker="B. Velichkov"></SemiPlenary>
-                <SemiPlenary speaker="L. Arosio"></SemiPlenary>
+                <SemiPlenary speaker="P. Stellari"></SemiPlenary>
                 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </DayRow>
             <DayRow>
