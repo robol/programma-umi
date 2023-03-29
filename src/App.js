@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Container fluid className="text-left">
         <h1>Programma UMI Pisa 2023</h1>
-        <div class="text-muted h5 text-center">Aggiornato al 20 marzo 2023</div>
+        <div class="text-muted h5 text-center">Aggiornato al 29 marzo 2023</div>
         <div class="day">
         <h2>Lunedì 4 settembre</h2>
         <DayTable>
@@ -268,7 +268,7 @@ function App() {
             </DayRow>
             <DayRow>
                 <TimeCell start="09:40" end="10:30"></TimeCell>
-                <Plenary speaker="G. Staffilani"></Plenary>
+                <Plenary speaker="N. Guglielmi"></Plenary>
             </DayRow>
             <DayRow>
                 <TimeCell start="10:30" end="11:00"></TimeCell>
@@ -361,7 +361,7 @@ function App() {
             </DayRow>
             <DayRow>
                 <TimeCell start="12:15" end="13:05"></TimeCell>
-                <Plenary speaker="N. Guglielmi"></Plenary>
+                <Plenary speaker="G. Staffilani"></Plenary>
             </DayRow>
             <DayRow>
                 <TimeCell start="13:05" end="13:30"></TimeCell>
