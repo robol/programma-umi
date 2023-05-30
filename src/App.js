@@ -46,12 +46,12 @@ function App() {
                 <TimeCell start="15:00" end="17:00"></TimeCell>
                 <Section number="1"></Section>
                 <Section number="3"></Section>
-                <Section number="S6"></Section>
-                <Section number="16"></Section>
                 <Section number="4"></Section>
+                <Section number="S6"></Section>
                 <Section number="14"></Section>
                 <Section number="15"></Section>
                 <Section number="17"></Section>
+                <Section number="16"></Section>
                 <Section number="21"></Section>
                 <Section number="5"></Section>
                 <Section number="6"></Section>
@@ -97,12 +97,13 @@ function App() {
                 <TimeCell start="11:00" end="13:00"></TimeCell>
                 <Section number="1"></Section>
                 <Section number="3"></Section>
-                <Section number="S6"></Section>
-                <td></td>
                 <Section number="4"></Section>
+                
+                <Section number="S6"></Section>
                 <Section number="14"></Section>
                 <Section number="15"></Section>
                 <Section number="17"></Section>
+                <td></td>
                 <Section number="21"></Section>
                 <Section number="5"></Section>
                 <Section number="6"></Section>
@@ -129,18 +130,18 @@ function App() {
             </DayRow>
             <DayRow>
                 <TimeCell start="16:45" end="18:45"></TimeCell>
-                <Section number="19"></Section>
-                <Section number="16"></Section>
                 <Section number="S6"></Section>
                 <Section number="9"></Section>
                 <Section number="4"></Section>
+                <Section number="19"></Section>
                 <Section number="14"></Section>
                 <Section number="15"></Section>
                 <Section number="17"></Section>
+                <Section number="16"></Section>
                 <Section number="21"></Section>
                 <Section number="5"></Section>
-                <Section number="S4"></Section>
                 <Section number="18"></Section>
+                <Section number="S4"></Section>
             </DayRow>
             <DayRow>
                 <TimeCell start="19:00" end="20:00"></TimeCell>
@@ -169,18 +170,18 @@ function App() {
             </DayRow>
             <DayRow>
                 <TimeCell start="11:00" end="13:00"></TimeCell>
-                <Section number="19"></Section>
-                <Section number="16"></Section>
-                <td></td>
                 <Section number="2"></Section>
-                <Section number="20"></Section>
                 <Section number="7"></Section>
-                <Section number="14"></Section>
                 <Section number="S3"></Section>
+                <Section number="19"></Section>
+                <Section number="14"></Section>
+                <Section number="20"></Section>
                 <Section number="S1"></Section>
+                <Section number="16"></Section>
                 <td></td>
                 <Section number="S2"></Section>
                 <Section number="18"></Section>
+                <td></td>
             </DayRow>
             <DayRow>
                 <TimeCell start="13:00" end="14:30"></TimeCell>
@@ -214,18 +215,19 @@ function App() {
             </DayRow>
             <DayRow>
                 <TimeCell start="11:00" end="13:00"></TimeCell>
+                <Section number="2"></Section>
+                <Section number="7"></Section>
+                <Section number="S3"></Section>
+                
                 <Section number="19"></Section>
                 <Section number="23"></Section>
-                <td></td>
-                <Section number="2"></Section>
                 <Section number="20"></Section>
-                <Section number="7"></Section>
                 <Section number="13"></Section>
-                <Section number="S3"></Section>
                 <Section number="S1"></Section>
                 <Section number="8"></Section>
                 <Section number="9"></Section>
                 <Section number="12"></Section>
+                <td></td>
             </DayRow>
             <DayRow>
                 <TimeCell start="13:00" end="14:30"></TimeCell>
@@ -278,15 +280,15 @@ function App() {
                 <TimeCell start="11:00" end="13:00"></TimeCell>
                 <Section number="24"></Section>
                 <Section number="23"></Section>
+                <Section number="7"></Section>
                 <Section number="22"></Section>
                 <Section number="11"></Section>
                 <Section number="20"></Section>
-                <Section number="10"></Section>
                 <Section number="13"></Section>
+                <Section number="10"></Section>
                 <Section number="S5"></Section>
                 <Section number="S1"></Section>
                 <Section number="8"></Section>
-                <Section number="7"></Section>
                 <Section number="S2"></Section>
             </DayRow>
             <DayRow>
@@ -297,20 +299,20 @@ function App() {
                 <TimeCell start="14:30" end="16:30"></TimeCell>
                 <Section number="24"></Section>
                 <Section number="23"></Section>
+                <Section number="2"></Section>
                 <Section number="22"></Section>
                 <Section number="11"></Section>
-                <Section number="2"></Section>
-                <Section number="10"></Section>
-                <Section number="13"></Section>
                 <Section number="S3"></Section>
-                <Section number="8"></Section>
-                <Section number="9"></Section>
+                <Section number="13"></Section>
+                <Section number="10"></Section>
                 <Section number="S5"></Section>
+                <Section number="9"></Section>
+                <Section number="8"></Section>
                 <Section number="12"></Section>
             </DayRow>
             <DayRow>
                 <TimeCell start="16:30" end="17:00"></TimeCell>
-                <LunchBreak></LunchBreak>
+                <CofeeBreak></CofeeBreak>
             </DayRow>
             <DayRow>
                 <TimeCell start="17:00" end="17:40"></TimeCell>
@@ -337,16 +339,16 @@ function App() {
                 <TimeCell start="08:50" end="10:50"></TimeCell>
                 <Section number="24"></Section>
                 <Section number="23"></Section>
+                <td></td>
                 <Section number="22"></Section>
                 <Section number="11"></Section>
                 <td></td>
-                <Section number="10"></Section>
                 <td></td>
+                <Section number="10"></Section>
                 <Section number="S5"></Section>
                 <td></td>
-                <td></td>
-                <Section number="S2"></Section>
                 <Section number="12"></Section>
+                <Section number="S2"></Section>
             </DayRow>
             <DayRow>
                 <TimeCell start="10:50" end="11:20"></TimeCell>
