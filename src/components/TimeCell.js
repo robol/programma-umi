@@ -1,6 +1,6 @@
 function TimeCell({ start, end }) {
     return <td className="text-nowrap">
-        {start} &mdash; {end}
+        {start} &ndash; {end}
     </td>;
 }
 

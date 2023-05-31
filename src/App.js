@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Container fluid className="text-left">
         <h1>Programma UMI Pisa 2023</h1>
-        <div class="text-muted h5 text-center">Aggiornato al 29 marzo 2023</div>
+        <div class="text-muted h5 text-center">Aggiornato al 31 maggio 2023</div>
         <div class="day">
         <h2>Lunedì 4 settembre</h2>
         <DayTable>
@@ -63,10 +63,10 @@ function App() {
             </DayRow>
             <DayRow>
                 <TimeCell start="17:30" end="18:20"></TimeCell>
-                <SemiPlenary speaker="V. Agostiniani" title=""></SemiPlenary>
+                <SemiPlenary speaker="V. Agostiniani" title=""></SemiPlenary><td></td><td></td>
                 <SemiPlenary speaker="P. Antonelli" title=""></SemiPlenary>
                 <SemiPlenary speaker="F. Di Plinio" title=""></SemiPlenary>
-                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </DayRow>
             <DayRow>
                 <TimeCell start="18:30" end="20:30"></TimeCell>
@@ -115,10 +115,10 @@ function App() {
             </DayRow>
             <DayRow>
                 <TimeCell start="14:30" end="15:10"></TimeCell>
-                <SemiPlenary speaker="A. Giacobbe" title="TBA"></SemiPlenary>
+                <SemiPlenary speaker="A. Giacobbe" title="TBA"></SemiPlenary><td></td><td></td>
                 <SemiPlenary speaker="D. Lombardo" title="TBA"></SemiPlenary>
                 <SemiPlenary speaker="M. Radeschi" title="TBA"></SemiPlenary>
-                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </DayRow>
             <DayRow>
                 <TimeCell start="15:25" end="16:15"></TimeCell>
@@ -235,17 +235,17 @@ function App() {
             </DayRow>
             <DayRow>
                 <TimeCell start="14:30" end="15:10"></TimeCell>
-                <SemiPlenary speaker="S. Mosconi"></SemiPlenary>
+                <SemiPlenary speaker="S. Mosconi"></SemiPlenary><td></td><td></td>
                 <SemiPlenary speaker="J. Vitória"></SemiPlenary>
                 <SemiPlenary speaker="L. Arosio"></SemiPlenary>
-                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </DayRow>
             <DayRow>
                 <TimeCell start="15:25" end="16:05"></TimeCell>
-                <SemiPlenary speaker="M. Di Nasso"></SemiPlenary>
+                <SemiPlenary speaker="M. Di Nasso"></SemiPlenary><td></td><td></td>
                 <SemiPlenary speaker="B. Velichkov"></SemiPlenary>
                 <SemiPlenary speaker="P. Stellari"></SemiPlenary>
-                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </DayRow>
             <DayRow>
                 <TimeCell start="16:05" end="16:35"></TimeCell>
@@ -316,10 +316,10 @@ function App() {
             </DayRow>
             <DayRow>
                 <TimeCell start="17:00" end="17:40"></TimeCell>
-                <SemiPlenary speaker="F. Rapetti"></SemiPlenary>
+                <SemiPlenary speaker="F. Rapetti"></SemiPlenary><td></td><td></td>
                 <SemiPlenary speaker="D. Trevisan"></SemiPlenary>
                 <SemiPlenary speaker="B. Langella"></SemiPlenary>
-                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </DayRow>
             <DayRow>
                 <TimeCell start="18:00" end="19:30"></TimeCell>
@@ -356,10 +356,10 @@ function App() {
             </DayRow>
             <DayRow>
                 <TimeCell start="11:20" end="12:00"></TimeCell>
-                <SemiPlenary speaker="A. Fiocca"></SemiPlenary>
+                <SemiPlenary speaker="A. Fiocca"></SemiPlenary><td></td><td></td>
                 <SemiPlenary speaker="B. Meini"></SemiPlenary>
                 <SemiPlenary speaker="A. Baccaglini-Frank"></SemiPlenary>
-                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </DayRow>
             <DayRow>
                 <TimeCell start="12:15" end="13:05"></TimeCell>

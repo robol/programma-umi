@@ -1,5 +1,5 @@
 function DayTable({ children }) {
-    return <table className="table table-sm table-striped my-4">
+    return <table className="table table-sm table-striped my-4 table-bordered">
       <thead>
             <tr>
                 <th rowSpan="2" className="border"></th>
@@ -8,18 +8,18 @@ function DayTable({ children }) {
                 <th colSpan="4" className="border">Scuola Normale</th>
             </tr>
             <tr>
-                <th>Aula Magna</th>
-                <th>Aula 1</th>
-                <th className="border-end">Aula 2</th>
-                <th>Aula Magna</th>
-                <th>Aula 1</th>
-                <th>Aula 2</th>
-                <th>Aula 3</th>
-                <th className="border-end">Aula 4</th>
-                <th>Bianchi</th>
-                <th>Azzurra</th>
-                <th>Stemmi</th>
-                <th className="border-end">Dini</th>
+                <th width="8%">Aula Magna</th>
+                <th width="8%">Aula&nbsp;1</th>
+                <th width="8%" className="border-end">Aula&nbsp;2</th>
+                <th width="8%">Aula&nbsp;Magna</th>
+                <th width="8%">Aula&nbsp;A</th>
+                <th width="8%">Aula&nbsp;F1</th>
+                <th width="8%">Aula&nbsp;G1</th>
+                <th width="8%" className="border-end">Aula&nbsp;L1</th>
+                <th width="8%">Aula&nbsp;Bianchi</th>
+                <th width="8%">Sala&nbsp;Azzurra</th>
+                <th width="8%">Sala&nbsp;Stemmi</th>
+                <th width="8%" className="border-end">Aula&nbsp;Dini</th>
             </tr>
         </thead>
         <tbody>
