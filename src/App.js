@@ -12,13 +12,14 @@ import CofeeBreak from './components/CofeeBreak';
 import SemiPlenary from './components/SemiPlenary';
 import SocialEvent from './components/SocialEvent';
 import RoundTable from './components/RoundTable';
+import OtherEvent from './components/OtherEvent';
 
 function App() {
   return (
     <div className="App">
       <Container fluid className="text-left">
         <h1>Programma UMI Pisa 2023</h1>
-        <div class="text-muted h5 text-center">Aggiornato al 31 maggio 2023</div>
+        <div class="text-muted h5 text-center">Aggiornato al 10 agosto 2023</div>
         <div class="day">
         <h2>Lunedì 4 settembre</h2>
         <DayTable>
@@ -253,7 +254,18 @@ function App() {
             </DayRow>
             <DayRow>
                 <TimeCell start="16:35" end="18:20"></TimeCell>
-                <SocialEvent name="Riunione Gruppi UMI (Polo Carmignani, Aula Bianchi, Azzurra, e Dini)"></SocialEvent>                
+                <OtherEvent name="Gruppi UMI">Gruppi UMI 1</OtherEvent>
+                <OtherEvent name="Gruppi UMI"></OtherEvent>
+                <OtherEvent name="Gruppi UMI"></OtherEvent>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                        
+                <OtherEvent name="Gruppi UMI"></OtherEvent>      
+                <OtherEvent name="SNS e UMI: i primi 40 anni delle Olimpiadi della Matematica in Italia"></OtherEvent>                
+                <td></td>  
             </DayRow>
             <DayRow>
                 <TimeCell start="18:30" end="19:30"></TimeCell>
@@ -346,9 +358,9 @@ function App() {
                 <td></td>
                 <Section number="10"></Section>
                 <Section number="S5"></Section>
-                <td></td>
-                <Section number="12"></Section>
                 <Section number="S2"></Section>
+                <Section number="12"></Section>
+                <td></td>
             </DayRow>
             <DayRow>
                 <TimeCell start="10:50" end="11:20"></TimeCell>
