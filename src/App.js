@@ -19,8 +19,8 @@ function App() {
     <div className="App">
       <Container fluid className="text-left">
         <h1>Programma UMI Pisa 2023</h1>
-        <div class="text-muted h5 text-center">Aggiornato al 10 agosto 2023</div>
-        <div class="day">
+        <div className="text-muted h5 text-center">Aggiornato al 30 agosto 2023</div>
+        <div className="day">
         <h2>Lunedì 4 settembre</h2>
         <DayTable>
             <DayRow>
@@ -79,7 +79,7 @@ function App() {
             </DayRow>
         </DayTable></div>
 
-        <div class="day">
+        <div className="day">
         <h2>Martedì 5 settembre</h2>
         <DayTable>
             <DayRow>
@@ -154,7 +154,7 @@ function App() {
             </DayRow>
         </DayTable></div>
 
-        <div class="day">
+        <div className="day">
         <h2>Mercoledì 6 settembre</h2>
         <DayTable>
             <DayRow>
@@ -199,7 +199,7 @@ function App() {
         </DayTable>
         </div>
 
-        <div class="day">
+        <div className="day">
         <h2>Giovedì 7 settembre</h2>
         <DayTable>
             <DayRow>
@@ -253,18 +253,46 @@ function App() {
                 <CofeeBreak></CofeeBreak>
             </DayRow>
             <DayRow>
-                <TimeCell start="16:35" end="18:20"></TimeCell>
-                <OtherEvent name="Gruppi UMI">Gruppi UMI 1</OtherEvent>
-                <OtherEvent name="Gruppi UMI"></OtherEvent>
-                <OtherEvent name="Gruppi UMI"></OtherEvent>
+                <TimeCell start="16:35" end="17:05"></TimeCell>
+                <OtherEvent name="Gruppo Critt &amp; Cod"></OtherEvent>
+                <OtherEvent name="Gruppo PRISMA"></OtherEvent>
+                <OtherEvent name="Gruppo TAA"></OtherEvent>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>                        
-                <OtherEvent name="Gruppi UMI"></OtherEvent>      
-                <OtherEvent name="SNS e UMI: i primi 40 anni delle Olimpiadi della Matematica in Italia"></OtherEvent>                
+                <OtherEvent name="Gruppo DIGIMATH"></OtherEvent>      
+                <OtherEvent rowSpan="3" name="SNS e UMI: i primi 40 anni delle Olimpiadi della Matematica in Italia"></OtherEvent>                
+                <td></td>  
+            </DayRow>
+            <DayRow>
+                <TimeCell start="17:10" end="17:40"></TimeCell>
+                <OtherEvent name="Gruppo Licei Mat.">Gruppi UMI 1</OtherEvent>
+                <OtherEvent name="Gruppo DinAmici"></OtherEvent>
+                <OtherEvent name="Gruppo MIVA"></OtherEvent>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                        
+                <OtherEvent name="Gruppo MSE-UMI"></OtherEvent>      
+                <td></td>  
+            </DayRow>
+            <DayRow>
+                <TimeCell start="17:45" end="18:20"></TimeCell>
+                <OtherEvent name="Riunione generale Gruppi UMI"></OtherEvent>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                        
+                <td></td>
                 <td></td>  
             </DayRow>
             <DayRow>
@@ -273,7 +301,7 @@ function App() {
             </DayRow>
         </DayTable></div>
 
-        <div class="day">
+        <div className="day">
         <h2>Venerdì 8 settembre</h2>
         <DayTable>
             <DayRow>
@@ -344,7 +372,7 @@ function App() {
         </DayTable>
         </div>
 
-        <div class="day">
+        <div className="day">
         <h2>Sabato 9 settembre</h2>
         <DayTable>
             <DayRow>

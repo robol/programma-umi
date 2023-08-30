@@ -98,8 +98,8 @@ function Section({ number }) {
 
 
     return <td>
-        <span class="text-nowrap px-2 small">Sezione { number }</span><br />
-        <span class="text-muted small">{ name }</span>
+        <span className="text-nowrap px-2 small">Sezione { number }</span><br />
+        <span className="text-muted small">{ name }</span>
     </td>;
 }
 

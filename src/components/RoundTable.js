@@ -11,7 +11,7 @@ function RoundTable({ name }) {
         <td></td>
         <td>
         <span className="">Tavola rotonda</span><br />
-        <span class="small text-muted">{name}</span>
+        <span className="small text-muted">{name}</span>
         </td>
         <td></td></>;
 }
