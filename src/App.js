@@ -194,7 +194,7 @@ function App() {
             </DayRow>
             <DayRow>
                 <TimeCell start="18:30" end="20:30"></TimeCell>
-                <SocialEvent name="Assemblea dei soci"></SocialEvent>
+                <SocialEvent name="Assemblea dei soci (Aula Magna - Polo Carmignani)"></SocialEvent>
             </DayRow>
         </DayTable>
         </div>
